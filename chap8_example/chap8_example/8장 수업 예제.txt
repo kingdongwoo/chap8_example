@@ -1,0 +1,14 @@
+1. Base Class로 Char* 타입의 name 변수를 가지는 CShape 클래스 작성
+2. Sub Class로 CRectangle, CCircle, CTriangle 클래스 작성
+   - CRectangle: 좌측하단 좌표와 가로 세로 길이
+   - CCircle: 중점 좌표와 반지름
+   - CTriangle: 세 꼭지점 좌표
+
+3. Base 클래스에서 name을 출력하는 Display() virtual 함수 작성
+4. Base 클래스에서 클래스 명을 출력하는 Display1() pure virtual 함수 작성
+5. 각 Sub 클래스에서 virtual 함수 재정의
+6. Main 함수에서 CShape 객체 3개, CRectangle 객체 3개, CCircle 객체 3개, CTriangle 객체 3개 선언 및 초기화
+7. 각 객체의 멤버 변수 정보를 출력하는 cout<< 오버로딩 함수 구현
+
+8. 하나의 자료구조에서 CShape, CRectangle,CCircle, CTriangle 객체 관리
+9. 자료구조에서 각 객체의 Display, Dispay1 함수 호출
